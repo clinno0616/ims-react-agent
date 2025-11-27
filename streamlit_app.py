@@ -283,7 +283,6 @@ with st.sidebar:
     st.markdown("#### 📁 資料庫設定")
     db_options = {
         "樣本資料庫 (120 產品)": "erp_inventory_sample.db",
-        "基本資料庫 (4 產品)": "erp_inventory.db",
         "自定義": "custom"
     }
     db_choice = st.selectbox("選擇資料庫", list(db_options.keys()))
@@ -636,3 +635,4 @@ st.markdown("""
     <small>ERP 進銷存 AI 查詢系統 | Powered by Ollama & Streamlit | v1.0</small>
 </div>
 """, unsafe_allow_html=True)
+
