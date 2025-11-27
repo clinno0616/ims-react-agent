@@ -234,7 +234,7 @@ purchase_orders (1) ──< (N) purchase_order_details
 ## 📁 專案結構
 
 ```
-tiptop/
+ims-react-agent/
 ├── agent.py                    # ReAct Agent 核心邏輯
 ├── streamlit_app.py            # Streamlit 前端應用
 ├── prompt_template.py          # AI 系統提示詞模板
